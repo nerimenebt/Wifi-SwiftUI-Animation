@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE383132640473800A6F5DA /* WifiConnectAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE383122640473800A6F5DA /* WifiConnectAnimationApp.swift */; };
+		FAE383152640473800A6F5DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE383142640473800A6F5DA /* ContentView.swift */; };
+		FAE383172640473A00A6F5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE383162640473A00A6F5DA /* Assets.xcassets */; };
+		FAE3831A2640473A00A6F5DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE383192640473A00A6F5DA /* Preview Assets.xcassets */; };
+		FAE383222640475900A6F5DA /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE383212640475900A6F5DA /* ArcView.swift */; };
+		FAE38324264047EF00A6F5DA /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE38323264047EF00A6F5DA /* ArcShape.swift */; };
+		FAE38326264048CB00A6F5DA /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE38325264048CB00A6F5DA /* Circles.swift */; };
+		FAE383282640495A00A6F5DA /* CircleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE383272640495A00A6F5DA /* CircleEmitter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE3830F2640473800A6F5DA /* WifiConnectAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiConnectAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE383122640473800A6F5DA /* WifiConnectAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnectAnimationApp.swift; sourceTree = "<group>"; };
+		FAE383142640473800A6F5DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE383162640473A00A6F5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE383192640473A00A6F5DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAE3831B2640473A00A6F5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE383212640475900A6F5DA /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		FAE38323264047EF00A6F5DA /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		FAE38325264048CB00A6F5DA /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		FAE383272640495A00A6F5DA /* CircleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEmitter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE3830C2640473800A6F5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE383062640473800A6F5DA = {
+			isa = PBXGroup;
+			children = (
+				FAE383112640473800A6F5DA /* WifiConnectAnimation */,
+				FAE383102640473800A6F5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE383102640473800A6F5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3830F2640473800A6F5DA /* WifiConnectAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE383112640473800A6F5DA /* WifiConnectAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE383122640473800A6F5DA /* WifiConnectAnimationApp.swift */,
+				FAE383142640473800A6F5DA /* ContentView.swift */,
+				FAE383162640473A00A6F5DA /* Assets.xcassets */,
+				FAE3831B2640473A00A6F5DA /* Info.plist */,
+				FAE383182640473A00A6F5DA /* Preview Content */,
+				FAE383212640475900A6F5DA /* ArcView.swift */,
+				FAE38323264047EF00A6F5DA /* ArcShape.swift */,
+				FAE38325264048CB00A6F5DA /* Circles.swift */,
+				FAE383272640495A00A6F5DA /* CircleEmitter.swift */,
+			);
+			path = WifiConnectAnimation;
+			sourceTree = "<group>";
+		};
+		FAE383182640473A00A6F5DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE383192640473A00A6F5DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE3830E2640473800A6F5DA /* WifiConnectAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE3831E2640473A00A6F5DA /* Build configuration list for PBXNativeTarget "WifiConnectAnimation" */;
+			buildPhases = (
+				FAE3830B2640473800A6F5DA /* Sources */,
+				FAE3830C2640473800A6F5DA /* Frameworks */,
+				FAE3830D2640473800A6F5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiConnectAnimation;
+			productName = WifiConnectAnimation;
+			productReference = FAE3830F2640473800A6F5DA /* WifiConnectAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE383072640473800A6F5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAE3830E2640473800A6F5DA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FAE3830A2640473800A6F5DA /* Build configuration list for PBXProject "WifiConnectAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE383062640473800A6F5DA;
+			productRefGroup = FAE383102640473800A6F5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE3830E2640473800A6F5DA /* WifiConnectAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE3830D2640473800A6F5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3831A2640473A00A6F5DA /* Preview Assets.xcassets in Resources */,
+				FAE383172640473A00A6F5DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE3830B2640473800A6F5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE38324264047EF00A6F5DA /* ArcShape.swift in Sources */,
+				FAE383222640475900A6F5DA /* ArcView.swift in Sources */,
+				FAE383282640495A00A6F5DA /* CircleEmitter.swift in Sources */,
+				FAE383152640473800A6F5DA /* ContentView.swift in Sources */,
+				FAE383132640473800A6F5DA /* WifiConnectAnimationApp.swift in Sources */,
+				FAE38326264048CB00A6F5DA /* Circles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAE3831C2640473A00A6F5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE3831D2640473A00A6F5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE3831F2640473A00A6F5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WifiConnectAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 933M898TAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WifiConnectAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neri.swiftuiCalculator.WifiConnectAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE383202640473A00A6F5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WifiConnectAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = 933M898TAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WifiConnectAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neri.swiftuiCalculator.WifiConnectAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE3830A2640473800A6F5DA /* Build configuration list for PBXProject "WifiConnectAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3831C2640473A00A6F5DA /* Debug */,
+				FAE3831D2640473A00A6F5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE3831E2640473A00A6F5DA /* Build configuration list for PBXNativeTarget "WifiConnectAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3831F2640473A00A6F5DA /* Debug */,
+				FAE383202640473A00A6F5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE383072640473800A6F5DA /* Project object */;
+}
